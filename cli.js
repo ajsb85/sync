@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-const cosmiconfig = require('cosmiconfig')
+const { cosmiconfig } = require('cosmiconfig');
 const sync = require('.')
 
 const opts = require('yargs')

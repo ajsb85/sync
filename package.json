@@ -18,7 +18,18 @@
   "dependencies": {
     "cosmiconfig": "^6.0.0",
     "fs-extra": "^9.0.0",
-    "globby": "^11.0.0",    
+    "globby": "^11.0.0",
     "yargs": "^15.3.1"
-  }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajsb85/protocol-sync.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ajsb85/protocol-sync/issues"
+  },
+  "homepage": "https://github.com/ajsb85/protocol-sync#readme"
 }
