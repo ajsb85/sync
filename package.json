@@ -1,13 +1,14 @@
 {
-  "name": "protocol-sync",
-  "version": "0.2.1",
+  "name": "@ajsb85/protocol-sync",
+  "version": "1.0.0",
   "description": "Keep your Protocol CSS modules in sync!",
   "keywords": [
     "protocol",
     "mozilla-protocol"
   ],
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://npm.pkg.github.com/"
   },
   "main": "index.js",
   "bin": {
