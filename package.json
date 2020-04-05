@@ -1,30 +1,29 @@
 {
-  "name": "@primer/sync",
-  "version": "1.0.0",
-  "description": "Keep your Primer CSS modules in sync!",
+  "name": "protocol-sync",
+  "version": "0.1.0",
+  "description": "Keep your Protocol CSS modules in sync!",
   "keywords": [
-    "primer",
-    "primer-css"
+    "protocol",
+    "mozilla-protocol"
   ],
   "publishConfig": {
     "access": "public"
   },
   "main": "index.js",
   "bin": {
-    "primer-sync": "cli.js"
+    "protocol-sync": "cli.js"
   },
   "scripts": {
     "pretest": "rm -rf __test__; ./cli.js __test__",
-    "test": "node-sass --include-path=__test__ __test__/primer/index.scss > __test__/primer.css",
-    "posttest": "du -h __test__/primer.css"
+    "test": "node-sass --include-path=__test__ __test__/protocol/index.scss > __test__/protocol.css",
+    "posttest": "du -h __test__/protocol.css"
   },
-  "author": "GitHub, Inc.",
+  "author": "Alexander Salas Bastidas (a.salas@ieee.org)",
   "license": "MIT",
   "dependencies": {
     "cosmiconfig": "^5.0.7",
     "fs-extra": "^7.0.1",
     "globby": "^9.0.0",
-    "primer-utilities": "^4.14.3",
     "resolve": "^1.9.0",
     "yargs": "^12.0.5"
   },

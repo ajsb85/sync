@@ -46,10 +46,10 @@ const explorer = cosmiconfig(pkg.name)
 explorer.search()
   .then(cosmic => {
     if (cosmic) {
-      console.warn(`[primer-sync] found config in ${cosmic.filepath}`)
+      console.warn(`[protocol-sync] found config in ${cosmic.filepath}`)
       return sync(Object.assign({}, cosmic.config, opts))
     } else {
-      console.warn(`[primer-sync] no config found; using defaults...`)
+      console.warn(`[protocol-sync] no config found; using defaults...`)
       return sync(opts)
     }
   })
