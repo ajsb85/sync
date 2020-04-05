@@ -16,7 +16,7 @@ And that's it! All of the Protocol CSS source files will be copied to your `_sas
 If you plan on updating Protocol CSS regularly, you should add it as a dev dependency with:
 
 ```sh
-npm i -D @ajsb8/protocol-sync
+npm i -D @ajsb85/protocol-sync
 ```
 
 Then, whenever you update your `protocol` or `protocol-*` dependencies, you can run it with:
